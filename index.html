@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Lovely Portfolio (PF)</title>
+    <link rel="stylesheet" href="style.css" class="sttle" />
+    <link rel="shortcut icon" href="favicon.ico" />
+
+</head>
+
+<!------------Home----------->
+
+<body>
+    <div id="header">
+        <div class="conatiner">
+            <nav>
+                <img src="wow.jpeg" height="600" width="460" class="logo" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+               <!------------ <li><a href="#services">Service</a></li>----------->
+    
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>My curioustic Details please focus:-</p>
+                <h1>Hllw, Myself <span>Rambilas</span> Ganguly<br/> From Beldiha, Kamarpukur, West Bengal, INDIA</h1>
+            </div>
+        </div>
+    </div>
+ 
+    <!----------About------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="hello.jpeg" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am a good presenter <br>Self Disicpline and Self Motivated<br>Good Listener<br> Presently I'm in 5th semester of B.TECH, CSE-DS
+                       <br> Always active<br>Punctual <br> A responsible Personality <br> Also a Religious person
+                    </p>
+                    
+                        <p class="tab-links" onclick="opentab( 'education')"><h1>Skills</h1></p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>DBMS:-</span><br />Relational Database Management System and Neo4j Aura DB </li>
+                            <li><span>Coding:-</span><br />C, Python, Prolog</li>
+                            <li><span>Data structure:-</span><br />Stack, Queue, Linked List, Heap, Tree, Quick sort, Merge Sort, Insertion sort, Selection sort, Graph</li>
+                            <li><span>Algorithm:-</span><br />Min-max, Travelling-salesman, Primes, Dijkstra, Naive-bayes etc</li>
+                            <li><span>Web Scraping:-</span><br />Using bs4  Beautifulsoup</li>
+                        </ul>
+                    </div>
+
+                    <p class="tab-links" onclick="opentab( 'education')"><h1>Expriences</h1></p>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-Current</span><br />Completed a Network security Project</li>
+                            <li>
+                                <span>2019-Current</span><br />Physical Instructor, C language and Python language Coding
+                            </li>
+                            <li><span>2023-Current</span><br />Learning Web Development</li>
+                            <li><span>2023- December</span><br/>Attened ICCRET International Conference and Published a Research paper, based on Dark Web crawler</li>
+                        </ul>
+                    </div>
+
+
+                    <p class="tab-links" onclick="opentab( 'education')"><h1>Achievments</h1></p>
+                    <div class="tab-contents" id="Achievments">
+                        <ul>
+                            <li><span>2018-2021</span><br />Physical trainer at Bankura Football Academy</li>
+                            <li>
+                                <span>2023</span><br />Nominated for Smart India Hackathon in University
+                            </li>
+                            <li><span>2023-Current</span><br />Got a certificate for presenting a paper in SPRINGER ICIDA </li>
+                            <li><span>2023- December</span><br/>Attened ICCRET International Conference and Published a Research paper, based on Dark Web crawler</li>
+                            <LI><span>2021- 2023</span> <br>Got many certificates for attending many workshops, Internal hackathon and Seminers</LI>
+                        </ul>
+                    </div>
+
+                    <p class="tab-links" onclick="opentab( 'education')"><h1>My Educational Organizations</h1></p>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>Previous-2019</span><br />10th, Shyambazar G.C. Sen High Scvhool (*H.S.), Shyambazar, Kamarpukur, Hooghly, West Bengal
+                            </li>
+                            <li>
+                                <span>2019-2021</span><br />11th and 12th, Shyambazar G.C. Sen High School(H.S.), Shyambazar, Kamarpukur, Hooghly, West Bengal
+                            </li>
+                            <li>
+                                <span>2021-Current</span><br />Persuing B.TECH in CSE- Data Science, Brainware University, Kolkata-124
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <!----------------Contact------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row ">
+                <div class="contact-left ">
+                    <h1 class="sub-title ">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope "></i><a class="cont" href="mailto:rambilasganguly5@gmail.com">rambilasganguly5@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone "></i><a class="cont" href="tel:+91787XXXXXXX">787XXXXXXX</a></p>
+                    <div class="social-icons ">
+                        <a target="_blank" href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/rambilas.ganguly.5?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></i></a>
+                        <a target="_blank" href="https://instagram.com/rambilasganguly?igshid=NGVhN2U2NjQ0Yg=="><i class="fa-brands fa-instagram"></i></i></a>
+                        <a target="_blank" href="https://github.com/settings/profile"><i class="fa-brands fa-github"></i></i></a>
+                        <button type="facebook" class="logo logo2">facebook
+
+                        </button>
+
+                        <br>
+                        <br>
+
+                        <button type="Instagram" class="logo logo2">Instagram
+                            
+                        </button>
+                        <br>
+                        <br>
+                        <button type="Github" class="logo logo2">Github
+                            
+                        </button>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text " name="Name" placeholder="Your Name" required>
+                        <input type="email " name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit
+                        </button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="copyright">
+            <p>All information reserved @# Rambo <i class="fas fa-heart "></i></p>
+        </div>
+    </div>
